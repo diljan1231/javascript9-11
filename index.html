@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+    //1
+// var city = prompt("Enter your city name:");
+
+//     if (city.toLowerCase() === "karachi") {
+//       document.write("Welcome to city of lights");
+//     } else {
+//       document.write("Welcome to " + city);
+//     }
+
+
+document.write("<br>")
+//2
+//  var gender = prompt("Enter your gender (male/female):");
+
+//     if (gender.toLowerCase() === "male") {
+//       document.write("Good Morning Sir.");
+//     } else if (gender.toLowerCase() === "female") {
+//       document.write("Good Morning Ma’am.");
+//     } else {
+//       document.write("Good Morning!");
+//     }
+
+
+
+
+
+//3
+// Ask user for the signal color
+// let color = prompt("Enter traffic signal color (Red, Yellow, Green):");
+
+// // Convert input to lowercase for case-insensitive matching
+// color = color.toLowerCase();
+
+// Show message based on signal color
+// if (color === "red") {
+//   alert("Must Stop");
+// } else if (color === "yellow") {
+//   alert("Ready to move");
+// } else if (color === "green") {
+//   alert("Move now");
+// } else {
+//   alert("Invalid color entered.");
+// }
+
+
+
+//4
+// var fuel = parseFloat(prompt("Enter remaining fuel in your car (in litres):"));
+
+//     if (fuel < 0.25) {
+//       document.write("Please refill the fuel in your car.");
+//     } else {
+//       document.write("Fuel level is sufficient.");
+//     }
+
+
+
+//5
+var a = 4;
+if (++a === 5){
+  alert("given condition for variable a is true");
+}
+// 
+var b = 82;
+if (b++ === 83){
+  alert("given condition for variable b is true");
+}
+// 
+var c = 12;
+if (c++ === 13){
+  alert("condition 1 is true");
+}
+if (c === 13){
+  alert("condition 2 is true");
+}
+if (++c < 14){
+  alert("condition 3 is true");
+}
+if(c === 14){
+  alert("condition 4 is true");
+}
+// 
+var materialCost = 20000;
+var laborCost = 2000;
+var totalCost = materialCost + laborCost;
+if (totalCost === laborCost + materialCost){
+  alert("The cost equals");
+}34
+
+// if (true){
+//   alert("True");
+// }
+// if (false){
+//   alert("False");
+// }
+
+
+
+
+// Create input elements dynamically
+    // function createInput(labelText, id) {
+    //   const label = document.createElement("label");
+    //   label.textContent = labelText + ": ";
+    //   const input = document.createElement("input");
+    //   input.type = "number";
+    //   input.id = id;
+    //   label.appendChild(input);
+    //   document.body.appendChild(label);
+    //   document.body.appendChild(document.createElement("br"));
+    // }
+
+    // // Create inputs
+    // createInput("Subject 1 Marks", "sub1");
+    // createInput("Subject 2 Marks", "sub2");
+    // createInput("Subject 3 Marks", "sub3");
+    // createInput("Total Marks", "total");
+
+    // // Create button
+    // const btn = document.createElement("button");
+    // btn.textContent = "Calculate Result";
+    // document.body.appendChild(btn);
+
+    // // Create result area
+    // const resultDiv = document.createElement("div");
+    // resultDiv.style.marginTop = "20px";
+    // document.body.appendChild(resultDiv);
+
+    // // Add click handler
+    // btn.onclick = function () {
+    //   const sub1 = parseFloat(document.getElementById("sub1").value);
+    //   const sub2 = parseFloat(document.getElementById("sub2").value);
+    //   const sub3 = parseFloat(document.getElementById("sub3").value);
+    //   const total = parseFloat(document.getElementById("total").value);
+
+    //   const obtained = sub1 + sub2 + sub3;
+    //   const percentage = (obtained / total) * 100;
+
+    //   let grade = "", remarks = "";
+
+    //   if (percentage >= 80) {
+    //     grade = "A-one";
+    //     remarks = "Excellent";
+    //   } else if (percentage >= 70) {
+    //     grade = "A";
+    //     remarks = "Good";
+    //   } else if (percentage >= 60) {
+    //     grade = "B";
+    //     remarks = "You need to improve";
+    //   } else {
+    //     grade = "Fail";
+    //     remarks = "Sorry";
+    //   }
+
+    //   // Display result
+    //   resultDiv.innerHTML = `<h3>Marks Sheet</h3>
+    //     Total marks: ${total} <br>
+    //     Marks obtained: ${obtained} <br>
+    //     Percentage: ${percentage.toFixed(2)}% <br>
+    //     Grade: ${grade} <br>
+    //     Remarks: ${remarks}`;
+    // };
+
+
+
+
+
+
+    
+ // Store a secret number between 1 to 10
+    // const secretNumber = Math.floor(Math.random() * 10) + 1;
+
+    // // Prompt user for their guess
+    // const userGuess = parseInt(prompt("Guess the secret number (between 1 and 10):"));
+
+    // // Check the guess
+    // if (userGuess === secretNumber) {
+    //   alert("Bingo! Correct answer");
+    // } else if (userGuess + 1 === secretNumber || userGuess - 1 === secretNumber) {
+    //   alert("Close enough to the correct answer");
+    // } else {
+    //   alert("Try again! The correct number was " + secretNumber);
+    // }
+
+
+
+
+
+      // Prompt user for a number
+    // const number = parseInt(prompt("Enter a number to check if it's divisible by 3:"));
+
+    // // Check if divisible by 3
+    // if (number % 3 === 0) {
+    //   alert(number + " is divisible by 3.");
+    // } else {
+    //   alert(number + " is NOT divisible by 3.");
+    // }
+
+
+
+
+
+ // Ask the user to enter a number
+    // const number = parseInt(prompt("Enter a number to check if it's even or odd:"));
+
+    // // Check if the number is even or odd
+    // if (number % 2 === 0) {
+    //   alert(number + " is an even number.");
+    // } else {
+    //   alert(number + " is an odd number.");
+    // }
+
+
+
+// Prompt user to enter temperature
+    //const temperature = parseFloat(prompt("Enter the current temperature in °C:"));
+
+    // // Display message based on temperature
+    // if (temperature > 40) {
+    //   alert("It is too hot outside.");
+    // } else if (temperature > 30) {
+    //   alert("The Weather today is Normal.");
+    // } else if (temperature > 20) {
+    //   alert("Today’s Weather is cool.");
+    // } else if (temperature > 10) {
+    //   alert("OMG! Today’s weather is so Cool.");
+    // } else {
+    //   alert("It's very cold outside.");
+    // }
+
+
+
+
+
+
+ // Take inputs from the user
+    // const num1 = parseFloat(prompt("Enter the first number:"));
+    // const num2 = parseFloat(prompt("Enter the second number:"));
+    // const operator = prompt("Enter operation (+, -, *, /, %):");
+
+    // let result;
+
+    // // Perform operation using if statements
+    // if (operator === "+") {
+    //   result = num1 + num2;
+    //   alert("Result: " + result);
+    // } else if (operator === "-") {
+    //   result = num1 - num2;
+    //   alert("Result: " + result);
+    // } else if (operator === "*") {
+    //   result = num1 * num2;
+    //   alert("Result: " + result);
+    // } else if (operator === "/") {
+    //   if (num2 !== 0) {
+    //     result = num1 / num2;
+    //     alert("Result: " + result);
+    //   } else {
+    //     alert("Error: Division by zero is not allowed.");
+    //   }
+    // } else if (operator === "%") {
+    //   result = num1 % num2;
+    //   alert("Result: " + result);
+    // } else {
+    //   alert("Invalid operator. Please enter +, -, *, / or %.");
+    // }
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
